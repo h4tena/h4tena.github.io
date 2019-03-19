@@ -1,8 +1,8 @@
-Origin: h4tena
-Label: h4tena
+Origin: euph0ria
+Label: euph0ria
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: tweaks of the underworld
+Description: tweaks for iOS 10-11-12
