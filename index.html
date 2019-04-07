@@ -1,84 +1,72 @@
 <!doctype html>
 <html lang="en">
     <style>
-        p.first {
-            padding-right: 155px;
-            margin-bottom: 5px;
+        div.center {
             text-align: center;
-            font-size: 25px;
-            line-height: 1.125;
-            font-weight: 700;
-            letter-spacing: .004em;
-            font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-        }
-        p.second {
-            padding-left: 155px;
-            margin-top: 5px;
-            text-align: center;
-            font-size: 25px;
-            line-height: 1.125;
-            font-weight: 700;
-            letter-spacing: .004em;
-            font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-        }
-        h3 {
-            text-align: center;
-            font-size: 23px;
-            line-height: 1.125;
-            font-weight: 700;
-            letter-spacing: .004em;
-            font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
         }
         h1 {
-            margin-top: 0;
             margin-bottom: 0;
-            text-align: center;
             font-size: 50px;
-            line-height: 1.125;
-            font-weight: 700;
-            letter-spacing: .004em;
-            font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        p.center {
+            margin-top: 10px;
+            font-size: 25px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
         hr {
+            margin-bottom: 30px;
             border-color: black;
-            width: 300px;
-        }
-        p {
-            text-align: center;
-            font-size: 15px;
-            line-height: 1.125;
-            font-weight: 700;
-            letter-spacing: .004em;
-            font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-        }
-        a.submit {
-            color: red;
+            width: 200px;
         }
         a {
-            color: #1139ff;
             text-decoration: none;
+            color: white;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 20px;
         }
-        a:hover {
-            color: #0a25aa;
+        .press {
+            border-radius: 12px;
+            padding: 10px 24px;
+            background-color: rgb(45, 45, 255);
         }
-        footer {
-            font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            text-align: center;
+        .press:hover {
+            border-radius: 12px;
+            padding: 10px 24px;
+            background-color: rgb(0, 128, 248);
+        }
+        .pressRED:hover {
+            border-radius: 12px;
+            padding: 10px 24px;
+            background-color: #ff4800;
+        }
+        .pressRED {
+            border-radius: 12px;
+            padding: 10px 24px;
+            background-color: rgb(255, 0, 0);
+        }
+        h2 {
+            margin-bottom: 10px;
+            font-size: 30px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        h5 {
+            margin-top: 0;
+            font-size: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
     </style>
     <body>
-        <p class="first">the</p><h1>euph0ria</h1><p class="second">repo</p>
+    <div class="center">
+        <h1>euph0ria</h1>
+        <p class="center">repo for iOS 12</p>
         <hr>
-        <p>Supports iOS 10, 11, and 12.</p>
-        <p style="font-size:20px;"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://h4tena.github.io">Add to Cydia</a></p>
-        <h3>Latest Tweaks Added:</h3>
-        <p>- 5 Year Old (Theme) by Jun Murakami -</p>
-        <p style="font-size:30px;"><a class="submit" href="/submit/index.html">Submit a Tweak/Theme</a></p>
-        <p>If there are any problems with the repo that you encounter, please email me at euph0ria.repo@gmail.com</p>
-        <p>If a tweak/theme gives you a boot-loop or respring-loop, please report it to the above email.</p>
-        <footer>made by h4tena (u/REALsteve859)</footer>
+        <a class="press" href="#">Add to Cydia</a>
+        <br><br><br>
+        <a class="pressRED" href="#">Submit a Tweak</a>
+        <h2>Tweaks:</h2>
+        <h5>
+        5 Year Old
+        </h5>
+    </div>
     </body>
-</html>
